@@ -12,6 +12,7 @@ class HabitAddForm extends PureComponent {
   };
 
   render() {
+    console.log("habit add form");
     return (
       <form ref={this.formRef} className="add-form" onSubmit={this.onSubmit}>
         <input

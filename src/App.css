@@ -32,6 +32,7 @@ button {
   cursor: pointer;
 }
 .add-form {
+  padding: 1em;
   margin-left: 0.5em;
 }
 .add-input {
