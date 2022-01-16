@@ -13,7 +13,6 @@ class Habit extends PureComponent {
     this.props.onDelete(this.props.habit);
   };
   render() {
-    console.log("habit");
     const { name, count } = this.props.habit;
     return (
       <li className="habit">
